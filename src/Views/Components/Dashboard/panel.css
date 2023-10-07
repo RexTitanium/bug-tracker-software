@@ -1,0 +1,49 @@
+.panel-container{
+    overflow-x: hidden;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #d3d3d3;
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(145, 145, 145, 0.559);
+}
+
+table {
+    padding: 20px;
+    width: 79vw;
+    height: 150px;
+}
+
+thead{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+tr{
+    text-align: left;
+    font-size: 13px;
+}
+    
+th {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+.panel-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.panel-header h1 {
+    margin-left: 30px;
+    font-size: 1.6rem;
+}
+
+.panel-container button{
+    font-size: 1,6rem;
+    margin: 10px 10px 10px 0px;
+    cursor: pointer;
+}

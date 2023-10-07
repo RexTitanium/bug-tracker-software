@@ -1,0 +1,6 @@
+.database-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    z-index: 10;
+}

@@ -1,0 +1,24 @@
+.dashboard-card{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--card-color);
+    min-width: 275px;
+    min-height: 200px;
+    max-width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgb(195, 195, 195);
+}
+
+.dashboard-card h2{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.dashboard-card canvas{
+    size: 50%;
+}
